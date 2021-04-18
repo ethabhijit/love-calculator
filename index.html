@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>❤ Calculator</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <h1>❤ Calculator</h1>
+  <section id="container">
+    <div id="boy__container">
+      <img src="./images/boy.svg" alt="Boy image" class="profile__image">
+      <input type="text" id="boy__name__input" class="input__text" placeholder="Enter name..." value="" autofocus />
+      <button class="go__button" id="boy__next__btn">&rarr;</button>
+    </div>
+
+    <div id="girl__container">
+      <img src="./images/girl.svg" alt="Girl image" class="profile__image">
+      <input type="text" id="girl__name__input" class="input__text" placeholder="Enter name..." value="" />
+      <div class="btn__container">
+        <button class="go__button" id="girl__back__btn">&larr;</button>
+        <button class="go__button" id="submit__btn">&rarr;</button>
+      </div>
+    </div>
+
+    <div id="calculation__container">
+      <h4>
+        <span id="boy__name__res">Abhijit</span>
+        <span> & </span>
+        <span id="girl__name__res">Kuasha</span>
+      </h4>
+      <div id="image__container">
+        <h3 id="cal__res">450%</h3>
+      </div>
+      <div class="btn__container">
+        <button class="go__button" id="heart__back__btn">&larr;</button>
+      </div>
+    </div>
+  </section>
+  <!-- JS -->
+  <script src="js/script.js" defer></script>
+  <script src="https://kit.fontawesome.com/2b5130bf0a.js" crossorigin="anonymous" defer></script>
+</body>
+</html>
